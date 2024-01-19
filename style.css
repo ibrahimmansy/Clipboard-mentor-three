@@ -273,7 +273,7 @@ header .btn-group .btn-mac:hover,
   transition: .5s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .container {
     /*max-width: 768px;*/
   }
