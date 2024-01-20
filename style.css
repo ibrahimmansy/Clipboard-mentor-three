@@ -24,7 +24,8 @@ font-family: 'Red Hat Display', sans-serif; */
 
 body {
   font-family: 'Cairo', sans-serif;
-  font-size: var(--font-size)
+  font-size: var(--font-size);
+  
 }
 
 header {
@@ -310,32 +311,37 @@ header .btn-group .btn-mac:hover,
     width: 300px;
     margin-left: -20px;
   }
+  
+  .keep-track {
+  max-width: 300px;
+  margin: 0 auto
+  }
 
   .keep-track .title {
     font-size: 16px;
   }
 
   .keep-track .lorem {
-    max-width: 600px;
+    max-width: 300px;
     margin: auto;
    /* text-wrap: nowrap;*/
   }
 
   .keep-track .pc {
     flex-direction: column;
-    margin-right: -280px;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
 
   .keep-track .pc img {
     width: 225px;
+    margin: 0
   }
 
   .pc .text-pc {
-    max-width: 600px;
+    max-width: 300px;
     text-align: center;
-    margin-left: -209px;
+    margin-left: auto;
     margin-top: 3rem;
     height: 400px;
 
@@ -417,6 +423,10 @@ header .btn-group .btn-mac:hover,
     max-width: 600px;
     margin: auto;
   }
+  
+  .btn-Download {
+  width: 100%
+  }
 
   .btn-Download .btn-ios {
     display: block;
@@ -448,4 +458,4 @@ header .btn-group .btn-mac:hover,
     font-size: 40px;
     margin: auto 15px;
   }
-}
+   }
